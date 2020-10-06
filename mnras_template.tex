@@ -107,7 +107,7 @@ $^{3}$Another Department, Different Institution, Street Address, City Postal Cod
  
 %briefly describe the aims, methods, and main results
 %single paragraph not more than 250 words
-%No references should appear 
+%No references should appear
 \end{abstract}
 
 % Select between one and six entries from the list of approved keywords.
@@ -180,13 +180,13 @@ For the representation of the stars, we used two Kurucz photospheres models \cit
 
 Recreating the complex radial and vertical structure of the V4046\,Sgr disc is not an easy task. We choose to build the model by thinking the components of the disc separately and then unite them as a whole. Given the observations that we are using, we consider that a correct approach for this disc is using two different dust populations: larger grains that are vertically settled and dominates the disc mass and a less-abundant population of smaller grains that are distributed to larger heights from the mid-plane. As the gas and the small-dust population are coupled, it is important to consider the gas in the modelling process, but no line emission prediction is made. 
 
-Assuming a three dimensional model in a spherical reference frame with coordinates (r, $\theta$, $\phi$), gas density ($\rho_{\mathrm{gas}}$) distribution follows
+Assuming a three dimensional model in a spherical reference frame with coordinates ($r$, $\theta$, $\phi$), gas density ($\rho_{\mathrm{gas}}$) distribution follows
 \begin{equation}
-  \rho_{\mathrm{gas}}(r,z) =\frac{\Sigma(r) \,\delta(r)}{\sqrt{2\pi} \,r H(r)}  \text{exp}\left[-\frac{1}{2} \left(\frac{z}{r H(r)}\right)^2\right].
+  \rho_{\mathrm{gas}}(r,z) =\frac{\Sigma(r) \,\delta(r)}{\sqrt{2\pi} \,r H(r)}  \mathrm{exp}\left[-\frac{1}{2} \left(\frac{z}{r H(r)}\right)^2\right].
 \end{equation}
 Where $\delta(r)$ is a parameter that indicates the density drops in the gaps and cavities, $H(r)$ is the scale height profile and $\Sigma(r)$ been the surface density profile. $\Sigma(r)$ is defined by
 \begin{equation}
-  \Sigma(r) = \Sigma_\mathrm{c} \left(\frac{r}{R_\mathrm{c}}\right)^{-\gamma}  \, \text{exp}\left[-\left(\frac{r}{R_\mathrm{c}}\right)^{2-\gamma}\right],
+  \Sigma(r) = \Sigma_\mathrm{c} \left(\frac{r}{R_\mathrm{c}}\right)^{-\gamma}  \, \mathrm{exp}\left[-\left(\frac{r}{R_\mathrm{c}}\right)^{2-\gamma}\right],
 \end{equation}
 where $R_c$ is a characteristic radius and $\gamma$ is the surface density gradient. A fixed $\gamma$ = 1 is used as it is a typical value for discs \citep{Andrews_2009,Andrews_2010}. 
 
@@ -196,15 +196,15 @@ We define the parametric scale height profiles for the gas and for each dust pop
 \end{equation}
 where $H_o$ is the scale height at r = $r_o$, $\psi$ is the flaring index and $\chi$ is a scaling factor (in the range $0-1$) that mimics dust settling. For the gas and the micron-sized grains $\chi$ = 1 and for the millimetre-size dust population, as \citet{Rosenfeld_2013}, we assign a fixed $\chi$ = 1/2 for simplicity.
 
-The small-dust density distribution follows the same behaviour as the gas but with different scaling factors: the dust-to-gas ratio ($\zeta$ = 0.047 as \citet{Rosenfeld_2013}), the mass fraction between small and large dust particles ($f_{\mathrm{mass}}$) and a $\delta(r)$ factor for fine tuning that depends on the radius. So it is
+The small-dust density distribution follows the same behaviour as the gas but with different scaling factors: the dust-to-gas ratio ($\zeta$ = 0.047 as \citet{Rosenfeld_2013}), the mass fraction between small and large dust particles ($f_{\mathrm{mass}}$) and another $\delta_{\mathrm{sd}}(r)$ factor for fine tuning that depends on the radius. So it is
 \begin{equation}
-\rho_{\mathrm{small-dust}}(r,z)=\rho_{\mathrm{gas}}(r,z)\, f_{\mathrm{mass}} \, \delta(r) \: \zeta .
+\rho_{\mathrm{small-dust}}(r,z)=\rho_{\mathrm{gas}}(r,z)\, f_{\mathrm{mass}} \, \delta_{\mathrm{sd}}(r) \: \zeta .
 \end{equation}
 
-Since the large-dust grains are less coupled to the gas, their distribution has some important differences. A large inner cavity and another scaling factor (or filter) to generate the larger gap between the rings are needed. For the inner ring, the same profile as the gas is used, but with different values for $R_c$ and $\Sigma_c$. The greatest difference is in the outer ring, where we used a sum of an exponential correction with a Gaussian function and, between 32 and 34.5\,au, in an effort to recreate the break seen in the profile, we chose a different value for $\gamma$ = -8. So, for the large dust grains, the surface density is 
+Since the large-dust grains are less coupled to the gas, their distribution has some important differences. A large inner cavity and another scaling factor (or filter) is needed to generate the larger gap between the rings. For the inner ring, the same profile as the gas is used, but with different values for $R_c$ and $\Sigma_c$. The greatest difference is in the outer ring, where we used a sum of an exponential correction with a Gaussian function and, between 32 and 34.5\,au, in an effort to recreate the break seen in the profile, we chose a different value for $\gamma$ = -8. So, for the large dust grains, the surface density is 
 
 \begin{multline}
-  \Sigma_{\mathrm{large-dust}}(r) = \Sigma_{\mathrm{c}2} \left(\frac{r}{R_{\mathrm{c}2}}\right)^{-\gamma}  \\ \, \left\{ \text{exp}\left[-\left(\frac{r}{R_{\mathrm{c}2}}\right)^{2-\gamma}\right] +  \text{exp}\left[-\left(\frac{r}{R_{\mathrm{c}2}}\right)^{2}\right]\right\}.
+  \Sigma_{\mathrm{large-dust}}(r) = \Sigma_{\mathrm{c}2} \left(\frac{r}{R_{\mathrm{c}2}}\right)^{-\gamma}  \\ \, \left\{ \mathrm{exp}\left[-\left(\frac{r}{R_{\mathrm{c}2}}\right)^{2-\gamma}\right] +  \mathrm{exp}\left[-\left(\frac{r}{R_{\mathrm{c}2}}\right)^{2}\right]\right\}.
 \end{multline}
 
 Also for both dust populations, the inner part of the outer ring follows a different behaviour. The surface density profile is multiplied by an additional factor
@@ -248,7 +248,7 @@ Fig. \ref{fig:SED} shows the SED constructed from the model compared to the phot
 \begin{figure}
 	\centering
 	\includegraphics[width=\columnwidth]{SED_.png}
-    \caption{The SED (black points and solid red curve) compared with the model (blue). The black points represent the measured photometry and the red line shows an archival \textit{Spitzer} IRS spectrum.}
+    \caption{The SED (black points and solid red curve) compared with the model (blue). The black points represent the measured photometry and the red line shows an archival \textit{Spitzer} IRS spectrum. The dashed silver curve shows the emission of the stellar photosphere model.}
     \label{fig:SED}
 \end{figure}
 
