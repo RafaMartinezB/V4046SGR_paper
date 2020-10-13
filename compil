@@ -1,0 +1,5 @@
+rm Draft_V4046Sgr_mnras.bbl Draft_V4046Sgr_mnras.aux Draft_V4046Sgr_mnras.log 
+pdflatex Draft_V4046Sgr_mnras.tex
+bibtex Draft_V4046Sgr_mnras
+pdflatex Draft_V4046Sgr_mnras.tex
+pdflatex Draft_V4046Sgr_mnras.tex
