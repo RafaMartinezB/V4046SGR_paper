@@ -100,6 +100,14 @@ Avenhaus H.,  et~al., 2018, \mn@doi [The Astrophysical Journal]
 {Castelli} F.,  {Gratton} R.~G.,   {Kurucz} R.~L.,  1997, \aap, \href
   {https://ui.adsabs.harvard.edu/abs/1997A&A...318..841C} {318, 841}
 
+\bibitem[\protect\citeauthoryear{Collaboration, Brown, Vallenari, Prusti, de
+  Bruijne, Babusiaux  \& Biermann}{Collaboration
+  et~al.}{2020}]{gaiacollaboration2020gaia}
+Collaboration G.,  Brown A. G.~A.,  Vallenari A.,  Prusti T.,  de Bruijne J.
+  H.~J.,  Babusiaux C.,   Biermann M.,  2020, Gaia Early Data Release 3:
+  Summary of the contents and survey properties (\mn@eprint {arXiv}
+  {2012.01533})
+
 \bibitem[\protect\citeauthoryear{{Cutri} \& {et al.}}{{Cutri} \& {et
   al.}}{2012}]{2012yCat.2311....0C}
 {Cutri} R.~M.,  {et al.} 2012, VizieR Online Data Catalog, \href
@@ -130,16 +138,6 @@ Dullemond C.~P.,  Juhasz A.,  Pohl A.,  Sereshti F.,  Shetty R.,  Peters T.,
   et~al.}{2018}]{2018ApJ...869L..46D}
 {Dullemond} C.~P.,  et~al., 2018, \mn@doi [\apjl] {10.3847/2041-8213/aaf742},
   \href {https://ui.adsabs.harvard.edu/abs/2018ApJ...869L..46D} {869, L46}
-
-\bibitem[\protect\citeauthoryear{Flaherty et~al.,}{Flaherty
-  et~al.}{2020}]{Flaherty_2020}
-Flaherty K.,  et~al., 2020, \mn@doi [The Astrophysical Journal]
-  {10.3847/1538-4357/ab8cc5}, 895, 109
-
-\bibitem[\protect\citeauthoryear{{Gaia Collaboration} et~al.,}{{Gaia
-  Collaboration} et~al.}{2018}]{Gaia}
-{Gaia Collaboration} et~al., 2018, \mn@doi [A\&A]
-  {10.1051/0004-6361/201833051}, 616, A1
 
 \bibitem[\protect\citeauthoryear{{Garufi} et~al.,}{{Garufi}
   et~al.}{2020}]{Garufi2020}
